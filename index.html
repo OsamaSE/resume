@@ -12,7 +12,7 @@
         }
         .container {
             display: flex;
-            margin: 0 10%;
+            margin: 50px 10% 0 10%; /* Added top margin for spacing */
         }
         .main-content {
             width: 70%;
@@ -38,7 +38,18 @@
         .experience-item p {
             margin: 5px 0;
         }
+        .experience-item h3 {
+            margin-bottom: 5px;
+        }
         .experience-item h4 {
+            margin-top: 5px;
+            margin-bottom: 10px;
+        }
+        .project-item h4 {
+            font-weight: bold;
+            margin: 0;
+        }
+        .project-item ul {
             margin-top: 5px;
         }
     </style>
@@ -90,35 +101,41 @@
             </div>
 
             <h2>Projects</h2>
-            <div class="experience-item">
+            <div class="project-item">
                 <h4>Implementing RSA Encryption and Exploiting Weaknesses</h4>
-                <p>Engineered a Python program to identify and exploit weaknesses in RSA key generation, successfully obtaining weak private keys from public ones and highlighting vulnerabilities in RSA implementations through the Broadcast Attack.</p>
-            </div>
-
-            <div class="experience-item">
-                <h4>Buffer Overflow Attacks</h4>
                 <ul>
-                    <li>Reverse-engineered over 80 C/C++ programs to execute buffer overflow attacks, employing GDB, Ghidra and pwntools alongside advanced memory corruption techniques like ROP to bypass security controls, demonstrating exceptional analytical and technical skills.</li>
-                    <li>Static and Dynamic analysis of greencat-2 malware using Ghidra, intel’s PIN tool. Created control/data flow graphs using Python</li>
+                    <li>Engineered a Python program to identify and exploit weaknesses in RSA key generation, successfully obtaining weak private keys from public ones and highlighting vulnerabilities in RSA implementations through the Broadcast Attack.</li>
                 </ul>
             </div>
 
-            <div class="experience-item">
+            <div class="project-item">
+                <h4>Buffer Overflow Attacks</h4>
+                <ul>
+                    <li>Reverse-engineered over 80 C/C++ programs to execute buffer overflow attacks, employing GDB, Ghidra and pwntools alongside advanced memory corruption techniques like ROP to bypass security controls, demonstrating exceptional analytical and technical skills.</li>
+                    <li>Static and Dynamic analysis of greencat-2 malware using Ghidra, intel’s PIN tool. Created control/data flow graphs using Python.</li>
+                </ul>
+            </div>
+
+            <div class="project-item">
                 <h4>OWASP Juice Shop</h4>
-                <p>Conducted comprehensive security assessments against the OWASP Juice Shop, identifying and exploiting vulnerabilities such as XSRF, XSS, Broken Authentication, and SQL Injection. Utilized Burp Suite, Metasploit and SQLMap, and crafted custom scripts to automate the exploitation process.</p>
+                <ul>
+                    <li>Conducted comprehensive security assessments against the OWASP Juice Shop, identifying and exploiting vulnerabilities such as XSRF, XSS, Broken Authentication, and SQL Injection. Utilized Burp Suite, Metasploit and SQLMap, and crafted custom scripts to automate the exploitation process.</li>
+                </ul>
             </div>
 
-            <div class="experience-item">
+            <div class="project-item">
                 <h4>2FA for Linux Login</h4>
-                <p>Enhanced Linux system security by developing a Python script for 2FA integration, involving updates to ‘passwd’ and ‘shadow’ files for user management, showcasing innovation in securing authentication mechanisms.</p>
+                <ul>
+                    <li>Enhanced Linux system security by developing a Python script for 2FA integration, involving updates to ‘passwd’ and ‘shadow’ files for user management, showcasing innovation in securing authentication mechanisms.</li>
+                </ul>
             </div>
 
-            <div class="experience-item">
+            <div class="project-item">
                 <h4>Policies and laws</h4>
                 <ul>
-                    <li>Developed an Organizational Ransomware Policy (group assignment)</li>
-                    <li>Analyzed and discussed the SEC's Proposed Rules on Cybersecurity Risk Management, Strategy, Governance, and Incident Disclosure by Public Companies, introduced on March 9, 2022</li>
-                    <li>Applied Diamond Model and Policy Assessment to a recent cybersecurity incident</li>
+                    <li>Developed an Organizational Ransomware Policy (group assignment).</li>
+                    <li>Analyzed and discussed the SEC's Proposed Rules on Cybersecurity Risk Management, Strategy, Governance, and Incident Disclosure by Public Companies, introduced on March 9, 2022.</li>
+                    <li>Applied Diamond Model and Policy Assessment to a recent cybersecurity incident.</li>
                 </ul>
             </div>
         </div>
@@ -138,7 +155,7 @@
                 <li>Microsoft Azure Cloud Security</li>
                 <li>Web application attacks (sql injection, XSS, XSRF)</li>
                 <li>Firewalls, snort IDS/IPS, nmap, Wireshark</li>
-                <li>DevOps, CI/CDI. git, github</li>
+                <li>git, github</li>
                 <li>Splunk</li>
                 <li>MITRE ATT&CK</li>
                 <li>OS: Linux, Windows</li>
