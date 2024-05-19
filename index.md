@@ -28,15 +28,15 @@ Cybersecurity professional with a Master’s in Cybersecurity from Georgia Tech 
 ## Education
 
 #### September 2022 - May 2025
-#### Master of Science in Cybersecurity | Georgia Tech | Atlanta, Georgia, USA
+##### Master of Science in Cybersecurity | Georgia Tech | Atlanta, Georgia, USA
 
 #### December 2018
-#### Bachelor of Science in Computer Engineering | American University of Sharjah | Sharjah, UAE
+##### Bachelor of Science in Computer Engineering | American University of Sharjah | Sharjah, UAE
 
 ## Experience
 
 #### 2019 – Present
-#### Developer | Security Expert | SAP | Dubai, UAE
+##### Developer | Security Expert | SAP | Dubai, UAE
 - Enhanced project security through focused threat modeling and testing, including DPP and secure software development lifecycle.
 - Threat modeled multiple applications, improving security postures.
 - Authored multiple SDDs for SAP reports and programs, demonstrating robust technical documentation skills.
