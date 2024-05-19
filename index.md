@@ -5,24 +5,25 @@ layout: custom
 
 # Osama Elhindawy
 
-Dubai, UAE      [linkedin](https://www.linkedin.com/in/oelhindawy/)
+Dubai, UAE      
+[](https://www.linkedin.com/in/oelhindawy/)
 
 
 Cybersecurity professional with a Master’s in Cybersecurity from Georgia Tech (expected May 2025) and extensive experience in secure development at SAP Dubai. Certified by Microsoft and Cloud Security Alliance in Cloud Security. Skilled in penetration testing, reverse engineering, cloud security, and proficient in Python and C++. Proven expertise in threat modeling, secure development practices, and automation, supported by strong technical documentation skills. Fluent in English and Arabic, equipped to address complex cybersecurity challenges with a combination of technical prowess and effective communication.
 
 ## Skills
 
-• Bash, C/C++, Java, Python, and X86 assembly
-• Using pwntools, GDB, and python to write C/C++ exploits
-• Reverse engineering C and Java binaries using Ghidra and Ghidra API
-• Microsoft Azure Cloud Security
-• Web application attacks (sql injection, XSS, XSRF)
-• Firewalls, snort IDS/IPS, nmap, Wireshark
-• DevOps, CI/CDI. git, github
-• Splunk
-• MITRE ATT&CK
-• OS: Linux, Windows
-• Familiar with security standards such as: NIST and OWASP
+- Bash, C/C++, Java, Python, and X86 assembly
+- Using pwntools, GDB, and python to write C/C++ exploits
+- Reverse engineering C and Java binaries using Ghidra and Ghidra API
+- Microsoft Azure Cloud Security
+- Web application attacks (sql injection, XSS, XSRF)
+- Firewalls, snort IDS/IPS, nmap, Wireshark
+- git, github
+- Splunk
+- MITRE ATT&CK
+- OS: Linux, Windows
+- Familiar with security standards such as: NIST and OWASP
 
 ## Education
 
